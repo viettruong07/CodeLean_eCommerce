@@ -44,12 +44,12 @@
             <div class="ht-left">
                 <div class="mail-service">
                     <i class="fa fa-envelope"></i>
-                    shinducql@gmail.com
+                    truongviet0707@gmail.com
 
                 </div>
                 <div class="phone-service">
                     <i class="fa fa-phone"></i>
-                    +84 37.67.67.041
+                    +84 339068919
 
                 </div>
             </div>
@@ -256,8 +256,8 @@
                     </div>
                     <ul>
                         <li>1A Yet Kieu . Ha Noi</li>
-                        <li>Phone: +84 37.67.67.041</li>
-                        <li>Email: shinducql@gmail.com</li>
+                        <li>Phone: +84 339068919</li>
+                        <li>Email: truongviet0707@gmail.com</li>
                     </ul>
                     <div class="footer-social">
                         <a href="#"><i class="fa fa-facebook"></i></a>
