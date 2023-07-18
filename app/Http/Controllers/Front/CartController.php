@@ -7,50 +7,51 @@ use App\Models\Product;
 use Illuminate\Http\Request;
 use Gloudemans\Shoppingcart\Facades\Cart;
 
-// class CartController extends Controller
-// {
-//     //
 
-//     public function add($id) {
-//         $product = Product::findOrFail($id);
+class CartController extends Controller
+{
+    //
 
-//         Cart::add([
-//             'id' => $id,
-//             'name' => $product->name,
-//             'qty' => 1,
-//             'price' => $product->discount ?? $product->price,
-//             'weight' => $product->weight ?? 0,
-//             'options' => [
-//                 'images'=>$product->productImages,
-//             ],
-//         ]);
+    public function add($id) {
+        $product = Product::findOrFail($id);
 
-//         return back();
-//     }
+        Cart::add([
+            'id' => $id,
+            'name' => $product->name,
+            'qty' => 1,
+            'price' => $product->discount ?? $product->price,
+            'weight' => $product->weight ?? 0,
+            'options' => [
+                'images'=>$product->productImages,
+            ],
+        ]);
 
-//     public function index() {
-//         $carts = Cart::content();
-//         $total = Cart::total();
-//         $subtotal = Cart::subtotal();
+        return back();
+    }
 
-//         return view('front.shop.cart', compact('carts', 'total', 'subtotal'));
-//     }
+    public function index() {
+        $carts = Cart::content();
+        $total = Cart::total();
+        $subtotal = Cart::subtotal();
 
-//     public function delete($rowId) {
-//         Cart::remove($rowId);
-//         return back();
-//     }
+        return view('front.shop.cart', compact('carts', 'total', 'subtotal'));
+    }
 
-//     public function destroy() {
-//      Cart::destroy();
-//      return back();
-//     }
+    public function delete($rowId) {
+        Cart::remove($rowId);
+        return back();
+    }
 
-//     public function update(Request $request) {
-//         if ($request->ajax()){
-//             Cart::update($request->rowId, $request->qty);
-//         }
+    public function destroy() {
+     Cart::destroy();
+     return back();
+    }
+
+    public function update(Request $request) {
+        if ($request->ajax()){
+            Cart::update($request->rowId, $request->qty);
+        }
 
 
-//     }
-// }
+    }
+}

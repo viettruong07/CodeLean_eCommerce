@@ -107,13 +107,13 @@
                         <li class="cart-icon">
                             <a href="./cart">
                                 <i class="icon_bag_alt"></i>
-                                {{-- <span>{{ Cart::count() }}</span> --}}
+                                <span>{{ Cart::count() }}</span>
                             </a>
                             <div class="cart-hover">
                                 <div class="select-item">
                                     <table>
                                         <tbody>
-                                       {{-- @foreach(Cart::content() as $cart)
+                                       @foreach(Cart::content() as $cart)
                                            <tr>
                                                <td class="si-pic"><img src="front/img/products/{{ $cart->options->images[0]->path}}" alt=""></td>
                                                <td class="si-text">
@@ -126,14 +126,14 @@
                                                    <i onclick="window.location='./cart/delete/{{ $cart ->rowId }}'" class="ti-close"></i>
                                                </td>
                                            </tr>
-                                       @endforeach --}}
+                                       @endforeach
 
                                         </tbody>
                                     </table>
                                 </div>
                                 <div class="select-total">
                                     <span>total:</span>
-                                    {{-- <h5>${{ Cart::total() }}</h5> --}}
+                                    <h5>${{ Cart::total() }}</h5>
                                 </div>
                                 <div class="select-button">
                                     <a href="./cart" class="primary-btn view-card">VIEW CARD</a>
@@ -142,7 +142,7 @@
                                 </div>
                             </div>
                         </li>
-                        {{-- <li class="cart-price">${{ Cart::total() }}</li> --}}
+                        <li class="cart-price">${{ Cart::total() }}</li>
                     </ul>
                 </div>
             </div>
