@@ -60,7 +60,7 @@ class CheckOutController extends Controller
             $data_url = VNPay::vnpay_create_payment([
                 'vnp_TnxRef' => $order->id, //ID đơn hàng
                 'vnp_OrderInfo' => 'Mô tả về đơn hàng ở đây...',
-                'vnp_Amount' => Cart::total(0,'', '') * 23075,
+                'vnp_Amount' => Cart::total(0,'', '') * 23075,  //Nhân với tỉ giá để chuyển sang tiền việt
             ]);
 
 
@@ -74,14 +74,14 @@ class CheckOutController extends Controller
     }
 
     public function vnPayCheck(Request $request) {
-        //1. Lấy data từ URL (do VNPAY gửi về qua $vnp_Returnurl
+        //1. Lấy data từ URL (do VNPAY gửi về qua $vnp_Returnurl)
 
         $vnp_ResponseCode = $request->get('vnp_ResponseCode'); // Mã phản hồi thanh toán . 00 = Thành công
         $vnp_TnxRef = $request->get('vnp_TnxRef'); //ticket_id
-        $vnp_Amount = $request->get('vnp_Amount');
+        $vnp_Amount = $request->get('vnp_Amount'); //Số tiền thanh toán
 
 
-        //2. Kiểm tra ết quả giao dịch trả về từ VMPay
+        //2. Kiểm tra kết quả giao dịch trả về từ VMPay
         if($vnp_ResponseCode != null) {
           //  Nếu thành công
             if ($vnp_ResponseCode == 00) {
@@ -120,7 +120,7 @@ class CheckOutController extends Controller
         $email_to = $order->email;
 
         Mail::send('front.checkout.email', compact('order', 'total', 'subtotal'), function ($message) use ($email_to) {
-            $message->from('tenducql3@gmail.com', 'Duc Online');
+            $message->from('truongviet0707@gmail.com', 'Truong Cong Viet');
             $message->to($email_to, $email_to);
             $message->subject('Order Notification');
         });

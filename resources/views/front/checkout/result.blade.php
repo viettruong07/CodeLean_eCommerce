@@ -22,7 +22,7 @@
     <!-- Breadcrumb Section End -->
 
 
-    <!--    Section Begin-->
+    <!-- Section Begin-->
     <div class="checkout-section spad">
         <div class="container">
             <div class="col-lg-12">
