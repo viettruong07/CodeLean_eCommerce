@@ -4,40 +4,40 @@ namespace App\Services;
 
 class BaseService implements ServiceInterface
 {
-    public $reponsitory;
+    public $repository;
 
     public function all()
     {
-      return $this->reponsitory->all();
+      return $this->repository->all();
     }
 
     public function find(int $id)
     {
-        return $this->reponsitory->find($id);
+        return $this->repository->find($id);
 
     }
 
     public function create(array $data)
     {
-        return $this->reponsitory->create($data);
+        return $this->repository->create($data);
 
     }
 
     public function update(array $data, $id)
     {
-        return $this->reponsitory->update($data, $id);
+        return $this->repository->update($data, $id);
 
     }
 
     public function delete($id)
     {
-        return $this->reponsitory->delete($id);
+        return $this->repository->delete($id);
 
     }
 
     public function  searchAndPaginate($searchBy, $keyword, $perPage = 5)
     {
-        return $this->reponsitory->searchAndPaginate($searchBy, $keyword, $perPage);
+        return $this->repository->searchAndPaginate($searchBy, $keyword, $perPage);
     }
 
 
