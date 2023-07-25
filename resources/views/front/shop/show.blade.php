@@ -34,7 +34,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="product-pic-zoom">
-                                <img src="front/img/products/{{ $product->productImages[0]->path }}" alt="" class="product-big-img">
+                                <img src="front/img/products/{{ $product->productImages[0]->path ?? '' }}" alt="" class="product-big-img">
                                 <div class="zoom-icon">
                                     <i class="fa fa-search-plus"></i>
                                 </div>

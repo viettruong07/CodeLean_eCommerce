@@ -21,6 +21,7 @@ use App\Repositories\User\UserRepositoryInterface;
 use App\Services\Blog\BlogService;
 use App\Services\Blog\BlogServiceInterface;
 use App\Services\Brand\BrandServiceInterface;
+use App\Services\Brand\BrandService;
 use App\Services\Order\OrderService;
 use App\Services\Order\OrderServiceInterface;
 use App\Services\OrderDetail\OrderDetailService;

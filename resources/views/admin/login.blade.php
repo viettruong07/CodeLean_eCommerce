@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="/dashboard/">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
@@ -26,14 +27,19 @@
                         <div class="app-logo-inverse mx-auto mb-3"></div>
                         <div class="modal-dialog w-100 mx-auto">
                             <div class="modal-content">
-                                <div class="modal-body">
-                                    <div class="h5 modal-title text-center">
-                                        <h4 class="mt-2">
-                                            <div>Welcome back,</div>
-                                            <span>Please sign in to your account below.</span>
-                                        </h4>
-                                    </div>
-                                    <form class="">
+
+                                <form class="" method="post" action="">
+                                    @csrf
+                                    <div class="modal-body">
+                                        <div class="h5 modal-title text-center">
+                                            <h4 class="mt-2">
+                                                <div>Welcome back,</div>
+                                                <span>Please sign in to your account below.</span>
+                                            </h4>
+                                        </div>
+
+                                        @include('admin.components.notification')
+
                                         <div class="form-row">
                                             <div class="col-md-12">
                                                 <div class="position-relative form-group">
@@ -51,16 +57,16 @@
                                         </div>
                                         <div class="position-relative form-check">
                                             <input name="remember" id="exampleCheck" type="checkbox"
-                                                class="form-check-input">
+                                                    class="form-check-input">
                                             <label for="exampleCheck" class="form-check-label">Keep me logged in</label>
                                         </div>
-                                    </form>
-                                </div>
-                                <div class="modal-footer clearfix">
-                                    <div class="float-right">
-                                        <button class="btn btn-primary btn-lg">Login to Dashboard</button>
                                     </div>
-                                </div>
+                                    <div class="modal-footer clearfix">
+                                        <div class="float-right">
+                                            <button type="submit" class="btn btn-primary btn-lg">Login to Dashboard</button>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                         <div class="text-center text-white opacity-8 mt-3">Copyright © CodeLean 2022</div>
@@ -69,7 +75,7 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="./assets/scripts/main.js"></script>
+    <script type="text/javascript" src="../../../../../../../../../Users/truongcongviet/Downloads/eProject_Sem2_Template_Admin/assets/scripts/main.js"></script>
 </body>
 
 </html>
