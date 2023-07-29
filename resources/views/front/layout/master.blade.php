@@ -75,11 +75,8 @@
                     </select>
                 </div>
                 <div class="top-social">
-                    <a href="#"><i class="ti-facebook"></i></a>
-                    <a href="#"><i class="ti-twitter-alt"></i></a>
-                    <a href="#"><i class="ti-linkedin"></i></a>
-                    <a href="#"><i class="ti-pinterest"></i></a>
-
+                    <a href="https://www.facebook.com/truongviet07/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/truong.viet.0707/"><i class="fa fa-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -266,15 +263,15 @@
                         </a>
                     </div>
                     <ul>
-                        <li>1A Yet Kieu . Ha Noi</li>
+                        <li>Truong Cong Viet 07</li>
                         <li>Phone: +84 339068919</li>
                         <li>Email: truongviet0707@gmail.com</li>
                     </ul>
                     <div class="footer-social">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                        <a href="https://www.facebook.com/truongviet07/"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/truong.viet.0707/"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-envelope"></i></a>
+                        <a href="#"><i class="fa fa-phone"></i></a>
 
                     </div>
                 </div>
@@ -322,7 +319,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="copyright-text">
-                        Copyright @<script>document.write(new Date().getFullYear())</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="DucOnline.vn" target="_blank">DucOnline</a>
+                        Copyright @<script>document.write(new Date().getFullYear())</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.facebook.com/truongviet07/" target="_blank">Truong Cong Viet</a>
                     </div>
                     <div class="payment-pic">
                         <img src="front/img/payment-method.png" alt="">
