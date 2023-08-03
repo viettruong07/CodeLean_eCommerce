@@ -143,12 +143,14 @@
                                                                 Groups </a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a href="javascript:void(0);" class="nav-link">Goal Metrics
+                                                            <a href="javascript:void(0);" class="nav-link">Goal
+                                                                Metrics
                                                                 <div class="ml-auto badge badge-warning">3</div>
                                                             </a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a href="javascript:void(0);" class="nav-link">Campaigns</a>
+                                                            <a href="javascript:void(0);"
+                                                                class="nav-link">Campaigns</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -180,11 +182,13 @@
                                         <h6 tabindex="-1" class="dropdown-header">Key Figures</h6>
                                         <button type="button" tabindex="0" class="dropdown-item">Service
                                             Calendar</button>
-                                        <button type="button" tabindex="0" class="dropdown-item">Knowledge Base</button>
+                                        <button type="button" tabindex="0" class="dropdown-item">Knowledge
+                                            Base</button>
                                         <button type="button" tabindex="0" class="dropdown-item">Accounts</button>
                                         <div tabindex="-1" class="dropdown-divider"></div>
                                         <button type="button" tabindex="0" class="dropdown-item">Products</button>
-                                        <button type="button" tabindex="0" class="dropdown-item">Rollup Queries</button>
+                                        <button type="button" tabindex="0" class="dropdown-item">Rollup
+                                            Queries</button>
                                     </div>
                                 </div>
                                 <ul class="nav flex-column">
@@ -353,12 +357,14 @@
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a role="tab" class="nav-link" data-toggle="tab" href="#tab-events-header">
+                                        <a role="tab" class="nav-link" data-toggle="tab"
+                                            href="#tab-events-header">
                                             <span>Events</span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a role="tab" class="nav-link" data-toggle="tab" href="#tab-errors-header">
+                                        <a role="tab" class="nav-link" data-toggle="tab"
+                                            href="#tab-errors-header">
                                             <span>System Errors</span>
                                         </a>
                                     </li>
@@ -392,7 +398,8 @@
                                                                     <div
                                                                         class="vertical-timeline-element-content bounce-in">
                                                                         <p>Yet another one, at <span
-                                                                                class="text-success">15:00 PM</span></p>
+                                                                                class="text-success">15:00 PM</span>
+                                                                        </p>
                                                                         <span
                                                                             class="vertical-timeline-element-date"></span>
                                                                     </div>
@@ -590,7 +597,8 @@
                                                                     <p>Lorem ipsum dolor sic amet, today at
                                                                         <a href="javascript:void(0);">12:00 PM</a>
                                                                     </p>
-                                                                    <span class="vertical-timeline-element-date"></span>
+                                                                    <span
+                                                                        class="vertical-timeline-element-date"></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -607,7 +615,8 @@
                                                                             class="text-danger">12:00 PM</b></p>
                                                                     <p>Yet another one, at <span
                                                                             class="text-success">15:00 PM</span></p>
-                                                                    <span class="vertical-timeline-element-date"></span>
+                                                                    <span
+                                                                        class="vertical-timeline-element-date"></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -627,7 +636,8 @@
                                                                         labore et dolore magna elit enim at minim veniam
                                                                         quis nostrud
                                                                     </p>
-                                                                    <span class="vertical-timeline-element-date"></span>
+                                                                    <span
+                                                                        class="vertical-timeline-element-date"></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -644,7 +654,8 @@
                                                                         not important</h4>
                                                                     <p>Lorem ipsum dolor sit amit,consectetur elit enim
                                                                         at minim veniam quis nostrud</p>
-                                                                    <span class="vertical-timeline-element-date"></span>
+                                                                    <span
+                                                                        class="vertical-timeline-element-date"></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -661,7 +672,8 @@
                                                                     <p>Lorem ipsum dolor sic amet, today at
                                                                         <a href="javascript:void(0);">12:00 PM</a>
                                                                     </p>
-                                                                    <span class="vertical-timeline-element-date"></span>
+                                                                    <span
+                                                                        class="vertical-timeline-element-date"></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -678,7 +690,8 @@
                                                                             class="text-danger">12:00 PM</b></p>
                                                                     <p>Yet another one, at <span
                                                                             class="text-success">15:00 PM</span></p>
-                                                                    <span class="vertical-timeline-element-date"></span>
+                                                                    <span
+                                                                        class="vertical-timeline-element-date"></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -698,7 +711,8 @@
                                                                         labore et dolore magna elit enim at minim veniam
                                                                         quis nostrud
                                                                     </p>
-                                                                    <span class="vertical-timeline-element-date"></span>
+                                                                    <span
+                                                                        class="vertical-timeline-element-date"></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -715,7 +729,8 @@
                                                                         not important</h4>
                                                                     <p>Lorem ipsum dolor sit amit,consectetur elit enim
                                                                         at minim veniam quis nostrud</p>
-                                                                    <span class="vertical-timeline-element-date"></span>
+                                                                    <span
+                                                                        class="vertical-timeline-element-date"></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -858,7 +873,8 @@
                                     <div class="btn-group">
                                         <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                             class="p-0 btn">
-                                            <img width="42" class="rounded-circle" src="front/img/user/{{ Auth::user()->avatar ?? 'default-avatar.jpg' }}"
+                                            <img width="42" class="rounded-circle"
+                                                src="front/img/user/{{ Auth::user()->avatar ?? 'default-avatar.jpg' }}"
                                                 alt="">
                                             <i class="fa fa-angle-down ml-2 opacity-8"></i>
                                         </a>
@@ -874,16 +890,19 @@
                                                             <div class="widget-content-wrapper">
                                                                 <div class="widget-content-left mr-3">
                                                                     <img width="42" class="rounded-circle"
-                                                                        src="front/img/user/{{ Auth::user()->avatar ?? 'default-avatar.jpg' }}" alt="">
+                                                                        src="front/img/user/{{ Auth::user()->avatar ?? 'default-avatar.jpg' }}"
+                                                                        alt="">
                                                                 </div>
                                                                 <div class="widget-content-left">
-                                                                    <div class="widget-heading">{{ Auth::user()->name ?? ''}}</div>
+                                                                    <div class="widget-heading">
+                                                                        {{ Auth::user()->name ?? '' }}</div>
                                                                     <div class="widget-subheading opacity-8">
-                                                                        {{ Auth::user()->email ?? ''}}
+                                                                        {{ Auth::user()->email ?? '' }}
                                                                     </div>
                                                                 </div>
                                                                 <div class="widget-content-right mr-2">
-                                                                    <a href="./admin/logout" class="btn-pill btn-shadow btn-shine btn btn-focus">
+                                                                    <a href="./admin/logout"
+                                                                        class="btn-pill btn-shadow btn-shine btn btn-focus">
                                                                         Logout
                                                                     </a>
                                                                 </div>
@@ -898,7 +917,8 @@
                                                         <li class="nav-item-header nav-item">Activity</li>
                                                         <li class="nav-item">
                                                             <a href="javascript:void(0);" class="nav-link">Chat
-                                                                <div class="ml-auto badge badge-pill badge-info">8</div>
+                                                                <div class="ml-auto badge badge-pill badge-info">8
+                                                                </div>
                                                             </a>
                                                         </li>
                                                         <li class="nav-item">
@@ -958,8 +978,8 @@
                                     </div>
                                 </div>
                                 <div class="widget-content-left  ml-3 header-user-info">
-                                    <div class="widget-heading">{{ Auth::user()->name ?? ''}}</div>
-                                    <div class="widget-subheading">{{ Auth::user()->email ?? ''}}</div>
+                                    <div class="widget-heading">{{ Auth::user()->name ?? '' }}</div>
+                                    <div class="widget-subheading">{{ Auth::user()->email ?? '' }}</div>
                                 </div>
                                 <div class="widget-content-right header-user-info ml-3">
                                     <button type="button"
@@ -1045,7 +1065,8 @@
                                             </div>
                                             <div class="widget-content-left">
                                                 <div class="widget-heading">Fixed Footer</div>
-                                                <div class="widget-subheading">Makes the app footer bottom fixed, always
+                                                <div class="widget-subheading">Makes the app footer bottom fixed,
+                                                    always
                                                     visible!</div>
                                             </div>
                                         </div>
@@ -1460,27 +1481,32 @@
                                 </a>
                                 <ul>
                                     <li>
-                                        <a href="./admin/user" class="{{ (request()->segment(2) == 'user') ? 'mm-active' : ''}}">
+                                        <a href="./admin/user"
+                                            class="{{ request()->segment(2) == 'user' ? 'mm-active' : '' }}">
                                             <i class="metismenu-icon"></i>User
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="./admin/order" class="{{ (request()->segment(2) == 'order') ? 'mm-active' : ''}}">
+                                        <a href="./admin/order"
+                                            class="{{ request()->segment(2) == 'order' ? 'mm-active' : '' }}">
                                             <i class="metismenu-icon"></i>Order
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="./admin/product" class="{{ (request()->segment(2) == 'product') ? 'mm-active' : ''}}">
+                                        <a href="./admin/product"
+                                            class="{{ request()->segment(2) == 'product' ? 'mm-active' : '' }}">
                                             <i class="metismenu-icon"></i>Product
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="./admin/category" class="{{ (request()->segment(2) == 'category') ? 'mm-active' : ''}}">
+                                        <a href="./admin/category"
+                                            class="{{ request()->segment(2) == 'category' ? 'mm-active' : '' }}">
                                             <i class="metismenu-icon"></i>Category
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="./admin/brand" class="{{ (request()->segment(2) == 'brand') ? 'mm-active' : ''}}">
+                                        <a href="./admin/brand"
+                                            class="{{ request()->segment(2) == 'brand' ? 'mm-active' : '' }}">
                                             <i class="metismenu-icon"></i>Brand
                                         </a>
                                     </li>
@@ -1548,7 +1574,8 @@
                                                 </li>
                                             </ul>
                                             <div class="tab-content">
-                                                <div class="tab-pane active" id="tab-messages-header1" role="tabpanel">
+                                                <div class="tab-pane active" id="tab-messages-header1"
+                                                    role="tabpanel">
                                                     <div class="scroll-area-sm">
                                                         <div class="scrollbar-container">
                                                             <div class="p-3">
@@ -1562,7 +1589,8 @@
                                                                                     class="vertical-timeline-element-icon bounce-in"></span>
                                                                                 <div
                                                                                     class="vertical-timeline-element-content bounce-in">
-                                                                                    <h4 class="timeline-title">All Hands
+                                                                                    <h4 class="timeline-title">All
+                                                                                        Hands
                                                                                         Meeting</h4>
                                                                                     <span
                                                                                         class="vertical-timeline-element-date"></span>
@@ -1577,7 +1605,8 @@
                                                                                 <div
                                                                                     class="vertical-timeline-element-content bounce-in">
                                                                                     <p>Yet another one, at
-                                                                                        <span class="text-success">15:00
+                                                                                        <span
+                                                                                            class="text-success">15:00
                                                                                             PM</span>
                                                                                     </p>
                                                                                     <span
@@ -1592,7 +1621,8 @@
                                                                                     class="vertical-timeline-element-icon bounce-in"></span>
                                                                                 <div
                                                                                     class="vertical-timeline-element-content bounce-in">
-                                                                                    <h4 class="timeline-title">Build the
+                                                                                    <h4 class="timeline-title">Build
+                                                                                        the
                                                                                         production release
                                                                                         <span
                                                                                             class="badge badge-danger ml-2">NEW</span>
@@ -1609,7 +1639,8 @@
                                                                                     class="vertical-timeline-element-icon bounce-in"></span>
                                                                                 <div
                                                                                     class="vertical-timeline-element-content bounce-in">
-                                                                                    <h4 class="timeline-title">Something
+                                                                                    <h4 class="timeline-title">
+                                                                                        Something
                                                                                         not important
                                                                                         <div
                                                                                             class="avatar-wrapper mt-2 avatar-wrapper-overlap">
@@ -1698,7 +1729,8 @@
                                                                                     class="vertical-timeline-element-icon bounce-in"></span>
                                                                                 <div
                                                                                     class="vertical-timeline-element-content bounce-in">
-                                                                                    <h4 class="timeline-title">This dot
+                                                                                    <h4 class="timeline-title">This
+                                                                                        dot
                                                                                         has an info state</h4>
                                                                                     <span
                                                                                         class="vertical-timeline-element-date"></span>
@@ -1712,7 +1744,8 @@
                                                                                     class="vertical-timeline-element-icon bounce-in"></span>
                                                                                 <div
                                                                                     class="vertical-timeline-element-content bounce-in">
-                                                                                    <h4 class="timeline-title">All Hands
+                                                                                    <h4 class="timeline-title">All
+                                                                                        Hands
                                                                                         Meeting</h4>
                                                                                     <span
                                                                                         class="vertical-timeline-element-date"></span>
@@ -1727,7 +1760,8 @@
                                                                                 <div
                                                                                     class="vertical-timeline-element-content bounce-in">
                                                                                     <p>Yet another one, at
-                                                                                        <span class="text-success">15:00
+                                                                                        <span
+                                                                                            class="text-success">15:00
                                                                                             PM</span>
                                                                                     </p>
                                                                                     <span
@@ -1742,7 +1776,8 @@
                                                                                     class="vertical-timeline-element-icon bounce-in"></span>
                                                                                 <div
                                                                                     class="vertical-timeline-element-content bounce-in">
-                                                                                    <h4 class="timeline-title">Build the
+                                                                                    <h4 class="timeline-title">Build
+                                                                                        the
                                                                                         production release
                                                                                         <span
                                                                                             class="badge badge-danger ml-2">NEW</span>
@@ -1759,7 +1794,8 @@
                                                                                     class="vertical-timeline-element-icon bounce-in"></span>
                                                                                 <div
                                                                                     class="vertical-timeline-element-content bounce-in">
-                                                                                    <h4 class="timeline-title">This dot
+                                                                                    <h4 class="timeline-title">This
+                                                                                        dot
                                                                                         has a dark state</h4>
                                                                                     <span
                                                                                         class="vertical-timeline-element-date"></span>
@@ -1810,7 +1846,8 @@
                                                                             <div
                                                                                 class="vertical-timeline-element-content bounce-in">
                                                                                 <p>Another meeting today, at
-                                                                                    <b class="text-danger">12:00 PM</b>
+                                                                                    <b class="text-danger">12:00
+                                                                                        PM</b>
                                                                                 </p>
                                                                                 <p>Yet another one, at <span
                                                                                         class="text-success">15:00
@@ -1853,7 +1890,8 @@
                                                                             </span>
                                                                             <div
                                                                                 class="vertical-timeline-element-content bounce-in">
-                                                                                <h4 class="timeline-title text-success">
+                                                                                <h4
+                                                                                    class="timeline-title text-success">
                                                                                     Something not important</h4>
                                                                                 <p>Lorem ipsum dolor sit
                                                                                     amit,consectetur elit enim at
@@ -1895,7 +1933,8 @@
                                                                             <div
                                                                                 class="vertical-timeline-element-content bounce-in">
                                                                                 <p>Another meeting today, at
-                                                                                    <b class="text-danger">12:00 PM</b>
+                                                                                    <b class="text-danger">12:00
+                                                                                        PM</b>
                                                                                 </p>
                                                                                 <p>Yet another one, at <span
                                                                                         class="text-success">15:00
@@ -1938,7 +1977,8 @@
                                                                             </span>
                                                                             <div
                                                                                 class="vertical-timeline-element-content bounce-in">
-                                                                                <h4 class="timeline-title text-success">
+                                                                                <h4
+                                                                                    class="timeline-title text-success">
                                                                                     Something not important</h4>
                                                                                 <p>Lorem ipsum dolor sit
                                                                                     amit,consectetur elit enim at
@@ -2063,7 +2103,8 @@
                                                     <div class="widget-numbers">
                                                         <span>344k</span>
                                                     </div>
-                                                    <div class="widget-subheading pt-2"> Profile views since last login
+                                                    <div class="widget-subheading pt-2"> Profile views since last
+                                                        login
                                                     </div>
                                                     <div class="widget-description text-danger">
                                                         <span class="pr-1"> <span>176%</span></span>
@@ -2077,7 +2118,8 @@
                                             <ul class="nav flex-column">
                                                 <li class="nav-item-divider mt-0 nav-item"></li>
                                                 <li class="nav-item-btn text-center nav-item">
-                                                    <button class="btn-shine btn-wide btn-pill btn btn-warning btn-sm">
+                                                    <button
+                                                        class="btn-shine btn-wide btn-pill btn btn-warning btn-sm">
                                                         <i class="fa fa-cog fa-spin mr-2"></i> View Details
                                                     </button>
                                                 </li>
@@ -2125,7 +2167,8 @@
                                                                     </li>
                                                                     <li class="nav-item">
                                                                         <a disabled="" class="nav-link disabled">
-                                                                            <i class="nav-link-icon lnr-file-empty"></i>
+                                                                            <i
+                                                                                class="nav-link-icon lnr-file-empty"></i>
                                                                             <span>Dashboards</span>
                                                                         </a>
                                                                     </li>
@@ -2135,9 +2178,11 @@
                                                                 <ul class="nav flex-column">
                                                                     <li class="nav-item-header nav-item">Sales &amp;
                                                                         Marketing</li>
-                                                                    <li class="nav-item"><a class="nav-link">Queues</a>
+                                                                    <li class="nav-item"><a
+                                                                            class="nav-link">Queues</a>
                                                                     </li>
-                                                                    <li class="nav-item"><a class="nav-link">Resource
+                                                                    <li class="nav-item"><a
+                                                                            class="nav-link">Resource
                                                                             Groups</a></li>
                                                                     <li class="nav-item">
                                                                         <a class="nav-link">Goal Metrics
@@ -2173,7 +2218,8 @@
                                                         </div>
                                                         <div class="menu-header-content text-dark">
                                                             <h5 class="menu-header-title">Two Column Grid</h5>
-                                                            <h6 class="menu-header-subtitle">Easy grid navigation inside
+                                                            <h6 class="menu-header-subtitle">Easy grid navigation
+                                                                inside
                                                                 popovers</h6>
                                                         </div>
                                                     </div>
@@ -2302,7 +2348,8 @@
                         </div>
                         <div class="divider"></div>
                         <div class="text-center mt-2 d-block">
-                            <button class="mr-2 border-0 btn-transition btn btn-outline-danger">Escalate Issue</button>
+                            <button class="mr-2 border-0 btn-transition btn btn-outline-danger">Escalate
+                                Issue</button>
                             <button class="border-0 btn-transition btn btn-outline-success">Support Center</button>
                         </div>
                     </div>
@@ -2350,7 +2397,8 @@
                             <li class="pt-2 pb-2 pr-2 list-group-item">
                                 <div class="widget-content p-0">
                                     <div class="widget-content-wrapper">
-                                        <div class="widget-content-left opacity-6 fsize-2 mr-3 text-danger center-elem">
+                                        <div
+                                            class="widget-content-left opacity-6 fsize-2 mr-3 text-danger center-elem">
                                             <i class="fa fa-file-pdf"></i>
                                         </div>
                                         <div class="widget-content-left">
@@ -2442,7 +2490,8 @@
                                         <div class="widget-content-right widget-content-actions">
                                             <div class="d-inline-block dropdown">
                                                 <button type="button" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false" class="border-0 btn-transition btn btn-link">
+                                                    aria-expanded="false"
+                                                    class="border-0 btn-transition btn btn-link">
                                                     <i class="fa fa-ellipsis-h"></i>
                                                 </button>
                                                 <div tabindex="-1" role="menu" aria-hidden="true"
@@ -2450,10 +2499,12 @@
                                                     <h6 tabindex="-1" class="dropdown-header">Header</h6>
                                                     <button type="button" disabled="" tabindex="-1"
                                                         class="disabled dropdown-item">Action</button>
-                                                    <button type="button" tabindex="0" class="dropdown-item">Another
+                                                    <button type="button" tabindex="0"
+                                                        class="dropdown-item">Another
                                                         Action</button>
                                                     <div tabindex="-1" class="dropdown-divider"></div>
-                                                    <button type="button" tabindex="0" class="dropdown-item">Another
+                                                    <button type="button" tabindex="0"
+                                                        class="dropdown-item">Another
                                                         Action</button>
                                                 </div>
                                             </div>
@@ -2502,8 +2553,8 @@
                                         </div>
                                         <div class="widget-content-left mr-3">
                                             <div class="widget-content-left">
-                                                <img width="42" class="rounded" src="dashboard/assets/images/avatars/1.jpg"
-                                                    alt="" />
+                                                <img width="42" class="rounded"
+                                                    src="dashboard/assets/images/avatars/1.jpg" alt="" />
                                             </div>
                                         </div>
                                         <div class="widget-content-left">
@@ -2596,42 +2647,50 @@
                                             <div class="avatar-wrapper mt-2 avatar-wrapper-overlap">
                                                 <div class="avatar-icon-wrapper avatar-icon-sm">
                                                     <div class="avatar-icon">
-                                                        <img src="dashboard/assets/images/avatars/1.jpg" alt="">
+                                                        <img src="dashboard/assets/images/avatars/1.jpg"
+                                                            alt="">
                                                     </div>
                                                 </div>
                                                 <div class="avatar-icon-wrapper avatar-icon-sm">
                                                     <div class="avatar-icon">
-                                                        <img src="dashboard/assets/images/avatars/2.jpg" alt="">
+                                                        <img src="dashboard/assets/images/avatars/2.jpg"
+                                                            alt="">
                                                     </div>
                                                 </div>
                                                 <div class="avatar-icon-wrapper avatar-icon-sm">
                                                     <div class="avatar-icon">
-                                                        <img src="dashboard/assets/images/avatars/3.jpg" alt="">
+                                                        <img src="dashboard/assets/images/avatars/3.jpg"
+                                                            alt="">
                                                     </div>
                                                 </div>
                                                 <div class="avatar-icon-wrapper avatar-icon-sm">
                                                     <div class="avatar-icon">
-                                                        <img src="dashboard/assets/images/avatars/4.jpg" alt="">
+                                                        <img src="dashboard/assets/images/avatars/4.jpg"
+                                                            alt="">
                                                     </div>
                                                 </div>
                                                 <div class="avatar-icon-wrapper avatar-icon-sm">
                                                     <div class="avatar-icon">
-                                                        <img src="dashboard/assets/images/avatars/5.jpg" alt="">
+                                                        <img src="dashboard/assets/images/avatars/5.jpg"
+                                                            alt="">
                                                     </div>
                                                 </div>
                                                 <div class="avatar-icon-wrapper avatar-icon-sm">
                                                     <div class="avatar-icon">
-                                                        <img src="dashboard/assets/images/avatars/6.jpg" alt="">
+                                                        <img src="dashboard/assets/images/avatars/6.jpg"
+                                                            alt="">
                                                     </div>
                                                 </div>
                                                 <div class="avatar-icon-wrapper avatar-icon-sm">
                                                     <div class="avatar-icon">
-                                                        <img src="dashboard/assets/images/avatars/7.jpg" alt="">
+                                                        <img src="dashboard/assets/images/avatars/7.jpg"
+                                                            alt="">
                                                     </div>
                                                 </div>
                                                 <div class="avatar-icon-wrapper avatar-icon-sm">
                                                     <div class="avatar-icon">
-                                                        <img src="dashboard/assets/images/avatars/8.jpg" alt="">
+                                                        <img src="dashboard/assets/images/avatars/8.jpg"
+                                                            alt="">
                                                     </div>
                                                 </div>
                                                 <div class="avatar-icon-wrapper avatar-icon-sm avatar-icon-add">

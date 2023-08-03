@@ -1,4 +1,3 @@
-
 @extends('front.layout.master')
 
 @section('title', 'Shopping Cart')
@@ -26,39 +25,46 @@
     <div class="shopping-cart spad">
         <div class="container">
             <div class="row">
-                @if(Cart::count() >0)
+                @if (Cart::count() > 0)
                     <div class="col-lg-12">
                         <div class="cart-table">
                             <table>
                                 <thead>
-                                <tr>
-                                    <th>Image</th>
-                                    <th class="p-name">Product Nmae</th>
-                                    <th>Price</th>
-                                    <th>Quantity</th>
-                                    <th>Total</th>
-                                    <th><i onclick="confirm('Are you sure?') === true ? window.location='./cart/destroy' : ''"  class="ti-close" style="cursor: pointer"></i></th>
-                                </tr>
+                                    <tr>
+                                        <th>Image</th>
+                                        <th class="p-name">Product Nmae</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                        <th>Total</th>
+                                        <th><i onclick="confirm('Are you sure?') === true ? window.location='./cart/destroy' : ''"
+                                                class="ti-close" style="cursor: pointer"></i></th>
+                                    </tr>
                                 </thead>
                                 <tbody>
-                                @foreach($carts as $cart)
-                                    <tr>
-                                        <td class="cart-pic first-row"><img style="height: 170px" src="front/img/products/{{ $cart->options->images[0]->path}}" alt=""></td>
-                                        <td class="cart-title first-row">
-                                            <h5>{{ $cart->name }}</h5>
-                                        </td>
-                                        <td class="p-price first-row">${{ number_format($cart->price, 2) }}</td>
-                                        <td class="qua-col first-row">
-                                            <div class="quantity">
-                                                <div class="pro-qty">
-                                                    <input type="text" value="{{ $cart->qty }}" data-rowid="{{ $cart->rowId }}">
+                                    @foreach ($carts as $cart)
+                                        <tr>
+                                            <td class="cart-pic first-row"><img style="height: 170px"
+                                                    src="front/img/products/{{ $cart->options->images[0]->path }}"
+                                                    alt=""></td>
+                                            <td class="cart-title first-row">
+                                                <h5>{{ $cart->name }}</h5>
+                                            </td>
+                                            <td class="p-price first-row">${{ number_format($cart->price, 2) }}</td>
+                                            <td class="qua-col first-row">
+                                                <div class="quantity">
+                                                    <div class="pro-qty">
+                                                        <input type="text" value="{{ $cart->qty }}"
+                                                            data-rowid="{{ $cart->rowId }}">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </td>
-                                        <td class="total-price first-row">${{ number_format($cart->price * $cart->qty, 2)  }}</td>
-                                        <td class="close-td first-row"><i onclick="window.location='./cart/delete/{{ $cart ->rowId }}'" class="ti-close"></i></td>
-                                    </tr>
-                                @endforeach
+                                            </td>
+                                            <td class="total-price first-row">
+                                                ${{ number_format($cart->price * $cart->qty, 2) }}</td>
+                                            <td class="close-td first-row"><i
+                                                    onclick="window.location='./cart/delete/{{ $cart->rowId }}'"
+                                                    class="ti-close"></i></td>
+                                        </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
                         </div>
@@ -87,7 +93,6 @@
                             </div>
                         </div>
                     </div>
-
                 @else
                     <div class="col-lg-12">
                         <h4>Your cart is empty</h4>

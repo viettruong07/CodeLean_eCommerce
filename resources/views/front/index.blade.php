@@ -14,7 +14,9 @@
                         <div class="col-lg-5">
                             <span>Bag, kids</span>
                             <h1>Black, friday</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cumque illum, aliquid earum ut similique aspernatur. Quod nam iure, ullam architecto culpa adipisci eveniet, possimus nihil illum asperiores ipsum sint.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cumque illum, aliquid earum ut
+                                similique aspernatur. Quod nam iure, ullam architecto culpa adipisci eveniet, possimus nihil
+                                illum asperiores ipsum sint.</p>
                             <a href="#" class="primary-btn">Shop Now</a>
                         </div>
                     </div>
@@ -29,7 +31,9 @@
                         <div class="col-lg-5">
                             <span>Bag, kids</span>
                             <h1>Black, friday</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cumque illum, aliquid earum ut similique aspernatur. Quod nam iure, ullam architecto culpa adipisci eveniet, possimus nihil illum asperiores ipsum sint.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cumque illum, aliquid earum ut
+                                similique aspernatur. Quod nam iure, ullam architecto culpa adipisci eveniet, possimus nihil
+                                illum asperiores ipsum sint.</p>
                             <a href="#" class="primary-btn">Shop Now</a>
                         </div>
                     </div>
@@ -97,7 +101,7 @@
                         </ul>
                     </div>
                     <div class="product-slider owl-carousel women">
-                        @foreach($womenproducts as $womenproduct)
+                        @foreach ($womenproducts as $womenproduct)
                             @include('front.components.product-item', ['product' => $womenproduct])
                         @endforeach
                     </div>
@@ -113,7 +117,9 @@
             <div class="col-lg-6 text-center">
                 <div class="section-title">
                     <h2>Deal Of The Week</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cum, iste ab sequi nihil doloribus necessitatibus provident recusandae aliquid laudantium! Similique placeat debitis, consequuntur unde repellat ipsa corrupti at ipsam?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cum, iste ab sequi nihil doloribus
+                        necessitatibus provident recusandae aliquid laudantium! Similique placeat debitis, consequuntur unde
+                        repellat ipsa corrupti at ipsam?</p>
                     <div class="product-price">
                         $35.00
                         <span>/ HanBag</span>
@@ -162,7 +168,7 @@
                         </ul>
                     </div>
                     <div class="product-slider owl-carousel men">
-                        @foreach($menproducts as $menproduct)
+                        @foreach ($menproducts as $menproduct)
                             @include('front.components.product-item', ['product' => $menproduct])
                         @endforeach
                     </div>
@@ -233,7 +239,7 @@
                 </div>
             </div>
             <div class="row">
-                @foreach($blogs as $blog)
+                @foreach ($blogs as $blog)
                     <div class="col-lg-4 col-md-6">
                         <div class="single-latest-blog">
                             <img src="front/img/blog/{{ $blog->image }}" alt="">
@@ -249,10 +255,11 @@
                                     </div>
                                 </div>
                                 <a href="">
-                                    <h4>{{$blog->title}}</h4>
+                                    <h4>{{ $blog->title }}</h4>
 
                                 </a>
-                                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam all aliquam quaerat</p>
+                                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam all aliquam quaerat
+                                </p>
                             </div>
                         </div>
                     </div>

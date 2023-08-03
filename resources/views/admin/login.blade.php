@@ -57,13 +57,14 @@
                                         </div>
                                         <div class="position-relative form-check">
                                             <input name="remember" id="exampleCheck" type="checkbox"
-                                                    class="form-check-input">
+                                                class="form-check-input">
                                             <label for="exampleCheck" class="form-check-label">Keep me logged in</label>
                                         </div>
                                     </div>
                                     <div class="modal-footer clearfix">
                                         <div class="float-right">
-                                            <button type="submit" class="btn btn-primary btn-lg">Login to Dashboard</button>
+                                            <button type="submit" class="btn btn-primary btn-lg">Login to
+                                                Dashboard</button>
                                         </div>
                                     </div>
                                 </form>
@@ -75,7 +76,9 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="../../../../../../../../../Users/truongcongviet/Downloads/eProject_Sem2_Template_Admin/assets/scripts/main.js"></script>
+    <script type="text/javascript"
+        src="./assets/scripts/main.js">
+    </script>
 </body>
 
 </html>
